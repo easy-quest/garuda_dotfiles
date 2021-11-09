@@ -1,4 +1,4 @@
-export EDITOR=/usr/bin/micro
+export EDITOR="code --wait"
 export BROWSER=firedragon
 export TERM=alacritty
 export QT_QPA_PLATFORMTHEME="qt5ct"
