@@ -1,5 +1,9 @@
 #GOROOT环境变量设置
-export PATH=$PATH:/usr/local/go/bin
+## set -gx PATH ~/.local/bin $PATH
+## set -Ux FOO bar
+set -gx PATH /usr/local/go/bin $PATH
 #GOPATH环境变量设置（go工作目录）
-export GOPATH=/home/zzz/goCoding/
-export GOPATH=/home/zzz/gocoding/ 
+set -Ux GOPATH /home/zzz/goCoding/
+set -Ux GOPATH /home/zzz/gocoding/ 
+# 启用 Go Modules 功能
+set -Ux GO111MODULE on
