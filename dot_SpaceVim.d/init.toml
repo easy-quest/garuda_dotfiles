@@ -86,3 +86,6 @@
 
 [[layers]]
   name = "lang#toml"
+
+[[layers]]
+  name = "lang#lua"
