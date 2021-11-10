@@ -1,0 +1,5 @@
+[user]
+	email = easy-quest@mail.ru
+	name = Ivan Yastrebov
+[init]
+	defaultBranch = main
