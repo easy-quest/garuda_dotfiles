@@ -60,7 +60,7 @@
 
 [[layers]]
   name = 'lsp'
-  enabled_clients = ['pyright']
+  enabled_clients = ['pyright', 'bash']
 
 [[layers]]
   name = "lang#sh"
