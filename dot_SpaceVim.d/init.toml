@@ -64,3 +64,9 @@
 
 [[layers]]
   name = "lang#sh"
+  bash_file_head = [
+      '#!/usr/bin/env bash',
+      '# @EasyQuest',
+      '',
+      ''
+  ]
