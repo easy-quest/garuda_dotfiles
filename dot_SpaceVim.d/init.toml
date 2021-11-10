@@ -61,3 +61,6 @@
 [[layers]]
   name = 'lsp'
   enabled_clients = ['pyright']
+
+[[layers]]
+  name = "lang#sh"
