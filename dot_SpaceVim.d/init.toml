@@ -70,3 +70,9 @@
       '',
       ''
   ]
+
+[[layers]]
+  name = "lang#go"
+
+[[layers]]
+  name = "format"
