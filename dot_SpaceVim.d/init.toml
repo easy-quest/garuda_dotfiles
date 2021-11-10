@@ -26,21 +26,38 @@
 
 # Enable autocomplete layer
 [[layers]]
-name = 'autocomplete'
-auto_completion_return_key_behavior = "complete"
-auto_completion_tab_key_behavior = "smart"
+  name = 'autocomplete'
+  auto_completion_return_key_behavior = "complete"
+  auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
-name = 'shell'
-default_position = 'top'
-default_height = 30
+  name = 'shell'
+  default_position = 'top'
+  default_height = 30
 
 # This is an example for adding custom plugins lilydjwg/colorizer
 [[custom_plugins]]
-repo = "lilydjwg/colorizer"
-merged = false
+  repo = "lilydjwg/colorizer"
+  merged = false
 
 [[layers]]
-name = 'git'
+  name = 'git'
 [[layers]]
-name = 'VersionControl'
+  name = 'VersionControl'
+
+[[layers]]
+  name = "lang#python"
+  python_file_head = [
+      '#!/usr/bin/env python',
+      '# -*- coding: utf-8 -*-',
+      '',
+      ''
+  ]
+  enable_typeinfo = true
+  format_on_save = true
+  python_interpreter = '/usr/bin/python3'
+  enabled_linters = ['python', 'pylint']
+
+[[layers]]
+  name = 'lsp'
+  enabled_clients = ['pyright']
