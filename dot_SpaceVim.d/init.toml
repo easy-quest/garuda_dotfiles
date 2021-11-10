@@ -83,3 +83,6 @@
 [[layers]]
   name = "lang#red"
   repl_command = "red --cli"
+
+[[layers]]
+  name = "lang#toml"
