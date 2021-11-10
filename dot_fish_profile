@@ -8,3 +8,4 @@ set -Ux GOPATH /home/zzz/go/
 set -Ux GO111MODULE on
 
 set -gx PATH /home/zzz/.local/bin $PATH
+set -gx PATH ~/.npm-global/bin $PATH
