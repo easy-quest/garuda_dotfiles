@@ -79,3 +79,7 @@
 
 [[layers]]
   name = "lang#markdown"
+
+[[layers]]
+  name = "lang#red"
+  repl_command = "red --cli"
