@@ -3,7 +3,6 @@
 ## set -Ux FOO bar
 set -gx PATH /usr/local/go/bin $PATH
 #GOPATH环境变量设置（go工作目录）
-set -Ux GOPATH /home/zzz/goCoding/
-set -Ux GOPATH /home/zzz/gocoding/ 
+set -Ux GOPATH /home/zzz/go/
 # 启用 Go Modules 功能
 set -Ux GO111MODULE on
