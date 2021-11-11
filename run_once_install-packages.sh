@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 sudo pacman -S rust-analyzer nodejs npm python-pip
+sudo pacman -S postgresql
+
 pamac install direnv
 
 npm -g install remark
