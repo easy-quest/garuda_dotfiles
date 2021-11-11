@@ -9,3 +9,5 @@ set -Ux GO111MODULE on
 
 set -gx PATH /home/zzz/.local/bin $PATH
 set -gx PATH ~/.npm-global/bin $PATH
+
+setxkbmap "us,ru" ,"winkeys" "grp:alt_shift_toggle,grep_led:scroll"
