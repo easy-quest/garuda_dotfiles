@@ -1,4 +1,5 @@
-﻿## Set values
+﻿starship init fish | source
+## Set values
 # Hide welcome message
 set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
@@ -9,8 +10,8 @@ if type "qtile" >> /dev/null 2>&1
    set -x QT_QPA_PLATFORMTHEME "qt5ct"
 end
 
-## Environment setup
-# Apply .profile: use this to put fish compatible .profile stuff in
+## Настройка окружающей среды
+# Применить .profile: используйте это, чтобы поставить рыбу совместимые Профильные вещи 
 if test -f ~/.fish_profile
   source ~/.fish_profile
 end
@@ -28,7 +29,6 @@ if test -d ~/Applications/depot_tools
         set -p PATH ~/Applications/depot_tools
     end
 end
-
 
 ## Starship prompt
 if status --is-interactive
