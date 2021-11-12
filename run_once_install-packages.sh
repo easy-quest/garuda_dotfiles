@@ -4,6 +4,7 @@
 # sudo pacman -S postgresql fish
 
 # pamac install direnv
+# yay -S fish-done
 
 npm -g install remark
 npm -g install remark-cli
