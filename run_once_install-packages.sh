@@ -13,6 +13,8 @@ npm -g install remark-frontmatter
 npm -g install wcwidth
 npm install --global prettier
 npm install -g pyright
+npm install -g robbyrussell
+npm install -g chalk
 
 pip3 install -U --user pylint yapf autoflake isort coverage pip-tools
 
