@@ -16,7 +16,7 @@ npm install -g pyright
 npm install -g robbyrussell
 npm install -g chalk
 
-pip3 install -U --user pylint yapf autoflake isort coverage pip-tools
+pip3 install -U --user pip pylint yapf autoflake isort coverage pip-tools
 
 # curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
 # omf update
