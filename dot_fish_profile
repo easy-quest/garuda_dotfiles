@@ -12,14 +12,6 @@ set -gx PATH ~/.npm-global/bin $PATH
 
 setxkbmap "us,ru" ,"winkeys" "grp:alt_shift_toggle,grep_led:scroll"
 
-
-
-function gp
-    git add -A $argv
-    git commit -a $argv
-    git push $argv
-end
-
 ## Useful aliases
 # Replace ls with exa
 alias ls='exa --color=always --group-directories-first --icons' # preferred listing
@@ -76,3 +68,9 @@ alias jctl="journalctl -p 3 -xb"
 
 # Recent installed packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+
+function gp
+    git add -A $argv
+    git commit -a $argv
+    git push $argv
+end
