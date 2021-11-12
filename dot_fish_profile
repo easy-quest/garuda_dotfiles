@@ -12,6 +12,8 @@ set -gx PATH ~/.npm-global/bin $PATH
 
 setxkbmap "us,ru" ,"winkeys" "grp:alt_shift_toggle,grep_led:scroll"
 
+
+
 function gp
     git add -A $argv
     git commit -a $argv
