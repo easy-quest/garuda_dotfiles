@@ -1,6 +1,22 @@
 ﻿starship init fish | source
-## Set values
-# Hide welcome message
+# FISH-specific adapter
+function robbyrussell_fish_adapter -d "Адаптер темы Роббирусселла для рыбы"
+  set robbyrussell_previous_exit_code "$status"
+  /path/to/robbyrussell $robbyrussell_previous_exit_code 'fish'
+end
+
+# set prompt
+function fish_prompt
+  # fish разбивает замены команд на новых линиях
+  # нужно временно сбросить IFS для опоздания
+  #   @see: http://stackoverflow.com/a/34186172/5508862
+  set -l IFS
+  robbyrussell_fish_adapter
+end
+
+
+## Установить значения
+# Скрыть добро пожаловать сообщение
 set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
