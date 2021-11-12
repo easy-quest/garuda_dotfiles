@@ -35,11 +35,6 @@
   default_position = 'top'
   default_height = 30
 
-# Это пример для добавления пользовательских плагинов lilydjwg/colorizer
-[[custom_plugins]]
-  repo = "lilydjwg/colorizer"
-  merged = false
-
 [[layers]]
   name = 'git'
 [[layers]]
@@ -55,12 +50,12 @@
   ]
   enable_typeinfo = true
   format_on_save = true
-  python_interpreter = '/usr/bin/python3'
-  enabled_linters = ['python', 'pylint']
+  python_interpreter = '/usr/bin/python'
+  enabled_linters = ['pylint']
 
 [[layers]]
   name = 'lsp'
-  enabled_clients = ['pyright', 'bash']
+  enabled_clients = ['pyright']
 
 [[layers]]
   name = "lang#sh"
