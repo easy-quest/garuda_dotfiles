@@ -24,7 +24,7 @@
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
 
-# Enable autocomplete layer
+# Включить автозаполненный слой
 [[layers]]
   name = 'autocomplete'
   auto_completion_return_key_behavior = "complete"
@@ -35,7 +35,7 @@
   default_position = 'top'
   default_height = 30
 
-# This is an example for adding custom plugins lilydjwg/colorizer
+# Это пример для добавления пользовательских плагинов lilydjwg/colorizer
 [[custom_plugins]]
   repo = "lilydjwg/colorizer"
   merged = false
@@ -66,19 +66,20 @@
   name = "lang#sh"
   bash_file_head = [
       '#!/usr/bin/env bash',
-      '# @EasyQuest',
+      '#=============================================================================',
+      '# filename.toml --- bash script',
+      '# Copyright (c) 2016-2021 @EasyQuest',
+      '# Author: Ivan Yastrebov < easy-quest@mail.ru >',
+      '# URL: https://easy-quest.github.io/web/',
+      '# License: GPLv3',
+      '#=============================================================================',
+      '',
       '',
       ''
   ]
 
 [[layers]]
-  name = "lang#go"
-
-[[layers]]
   name = "format"
-
-[[layers]]
-  name = "lang#markdown"
 
 [[layers]]
   name = "lang#red"
@@ -86,9 +87,6 @@
 
 [[layers]]
   name = "lang#toml"
-
-[[layers]]
-  name = "lang#lua"
 
 [[layers]]
   name = "sudo"
