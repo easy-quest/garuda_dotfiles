@@ -111,3 +111,7 @@ function gp
     git commit -a $argv
     git push $argv
 end
+
+function envrc
+  printf "#!/usr/bin/env bash \nsource .venv/bin/activate" > .envrc;direnv allow
+end 
