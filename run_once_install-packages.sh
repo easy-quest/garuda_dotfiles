@@ -21,3 +21,6 @@ pip3 install -U --user pip pylint yapf autoflake isort coverage pip-tools
 # curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
 # omf update
 curl -sLf https://spacevim.org/install.sh | bash -s -- --install neovim
+##
+printf "function gi\n\tcurl -sL https://www.toptal.com/developers/gitignore/api/\$argv\nend\n" > \
+~/.config/fish/functions/gi.fish
