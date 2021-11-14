@@ -75,3 +75,5 @@ function copy
         command cp $argv
     end
 end
+# Added by Krypton
+set -x GPG_TTY (tty)
