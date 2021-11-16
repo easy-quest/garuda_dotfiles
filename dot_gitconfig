@@ -7,3 +7,5 @@
 	program = /usr/bin/krgpg
 [tag]
 	forceSignAnnotated = true
+[commit]
+	gpgSign = true
