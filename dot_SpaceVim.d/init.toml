@@ -18,7 +18,7 @@
     'pylint',
   ] 
  name = 'lsp', enabled_clients = [
-    'pyright',
+    'pyright',                                                                                                                                                                                                                                                                                                                                                                                                                                                          
   ],
   name = "lang#sh", 
   bash_file_head = [
