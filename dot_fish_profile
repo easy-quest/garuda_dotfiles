@@ -8,6 +8,12 @@ set -gx PATH /usr/local/go/bin $PATH
 set -Ux GOPATH /home/zzz/go/
 # 启用 Go Modules 功能
 set -Ux GO111MODULE on
+# 配置 GOPROXY 环境变量
+set -Ux GOPROXY https://goproxy.cn
+#牛云也出了个国内代理 goproxy.cn 方便国内用户更快的访问
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
+
 
 set -gx PATH /home/zzz/.local/bin $PATH
 set -gx PATH ~/.npm-global/bin $PATH
