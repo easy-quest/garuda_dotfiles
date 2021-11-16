@@ -86,10 +86,10 @@
 [[layers]]
   name = "sudo"
 
-[layers]
+[[layers]]
   name = "lang#autohotkey"
 
-[layers]
+[[layers]]
   name = "lang#autoit"
 
 [[layers]]
