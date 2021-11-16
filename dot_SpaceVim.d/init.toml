@@ -1,21 +1,27 @@
 #=============================================================================
-layers = [
-  { name = 'autocomplete', auto_completion_return_key_behavior = "complete", auto_completion_tab_key_behavior = "smart" },
-  { name = 'shell', default_position = 'top', default_height = 30 },
-  { name = 'git' },
-  { name = 'VersionControl' },
-  { name = "lang#python", python_file_head = [
+[[layers]]
+
+  name = 'autocomplete', auto_completion_return_key_behavior = "complete", auto_completion_tab_key_behavior = "smart" },
+  name = 'shell', default_position = 'top', default_height = 30 },
+  name = 'git' },
+  name = 'VersionControl' },
+  name = "lang#python", python_file_head = [
     '#!/usr/bin/env python',
     '# -*- coding: utf-8 -*-',
     '',
     '',
-  ], enable_typeinfo = true, format_on_save = true, python_interpreter = '/usr/bin/python', enabled_linters = [
+  ], 
+  enable_typeinfo = true, 
+  format_on_save = true, 
+  python_interpreter = '/usr/bin/python', 
+  enabled_linters = [
     'pylint',
-  ] },
-  { name = 'lsp', enabled_clients = [
+  ] 
+ name = 'lsp', enabled_clients = [
     'pyright',
-  ] },
-  { name = "lang#sh", bash_file_head = [
+  ],
+  name = "lang#sh", 
+  bash_file_head = [
     '#!/usr/bin/env bash',
     '#=============================================================================',
     '# filename.toml --- bash script',
@@ -27,18 +33,18 @@ layers = [
     '',
     '',
     '',
-  ] },
-  { name = "format" },
-  { name = "lang#red", repl_command = "red --cli" },
-  { name = "lang#toml" },
-  { name = "sudo" },
-  { name = "lang#autohotkey" },
-  { name = "lang#autoit" },
-  { name = 'lang#coffeescript' },
-  { name = 'lang#d' },
-  { name = 'go' },
-  { name = "lang#lua" },
-]
+  ] 
+   name = "format"
+   name = "lang#red"
+   name = "lang#toml" 
+   name = "sudo" 
+   name = "lang#autohotkey" 
+   name = "lang#autoit" 
+   name = 'lang#coffeescript' 
+   name = 'lang#d'
+   name = 'go'
+   name = "lang#lua"
+
 # dark_powered.toml --- dark powered configuration example for SpaceVim
 # Copyright (c) 2016-2021 Wang Shidong & Contributors
 # Author: Wang Shidong < wsdjeg at 163.com >
