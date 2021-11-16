@@ -1,50 +1,4 @@
 #=============================================================================
-[[layers]]
-
-  name = 'autocomplete', auto_completion_return_key_behavior = "complete", auto_completion_tab_key_behavior = "smart" },
-  name = 'shell', default_position = 'top', default_height = 30 },
-  name = 'git' },
-  name = 'VersionControl' },
-  name = "lang#python", python_file_head = [
-    '#!/usr/bin/env python',
-    '# -*- coding: utf-8 -*-',
-    '',
-    '',
-  ], 
-  enable_typeinfo = true, 
-  format_on_save = true, 
-  python_interpreter = '/usr/bin/python', 
-  enabled_linters = [
-    'pylint',
-  ] 
- name = 'lsp', enabled_clients = [
-    'pyright',                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-  ],
-  name = "lang#sh", 
-  bash_file_head = [
-    '#!/usr/bin/env bash',
-    '#=============================================================================',
-    '# filename.toml --- bash script',
-    '# Copyright (c) 2016-2021 @EasyQuest',
-    '# Author: Ivan Yastrebov < easy-quest@mail.ru >',
-    '# URL: https://easy-quest.github.io/web/',
-    '# License: GPLv3',
-    '#=============================================================================',
-    '',
-    '',
-    '',
-  ] 
-   name = "format"
-   name = "lang#red"
-   name = "lang#toml" 
-   name = "sudo" 
-   name = "lang#autohotkey" 
-   name = "lang#autoit" 
-   name = 'lang#coffeescript' 
-   name = 'lang#d'
-   name = 'go'
-   name = "lang#lua"
-
 # dark_powered.toml --- dark powered configuration example for SpaceVim
 # Copyright (c) 2016-2021 Wang Shidong & Contributors
 # Author: Wang Shidong < wsdjeg at 163.com >
@@ -71,68 +25,84 @@
     enable_statusline_mode = false
 
 # Включить автозаполненный слой
+[[layers]]
+  name = 'autocomplete'
+  auto_completion_return_key_behavior = "complete"
+  auto_completion_tab_key_behavior = "smart"
 
-  
-  
-  
+[[layers]]
+  name = 'shell'
+  default_position = 'top'
+  default_height = 30
 
+[[layers]]
+  name = 'git'
+[[layers]]
+  name = 'VersionControl'
 
-  
-  
-  
+[[layers]]
+  name = "lang#python"
+  python_file_head = [
+      '#!/usr/bin/env python',
+      '# -*- coding: utf-8 -*-',
+      '',
+      ''
+  ]
+  enable_typeinfo = true
+  format_on_save = true
+  python_interpreter = '/usr/bin/python'
+  enabled_linters = ['pylint']
 
+[[layers]]
+  name = 'lsp'
+  enabled_clients = ['pyright']
 
-  
+[[layers]]
+  name = "lang#sh"
+  bash_file_head = [
+      '#!/usr/bin/env bash',
+      '#=============================================================================',
+      '# filename.toml --- bash script',
+      '# Copyright (c) 2016-2021 @EasyQuest',
+      '# Author: Ivan Yastrebov < easy-quest@mail.ru >',
+      '# URL: https://easy-quest.github.io/web/',
+      '# License: GPLv3',
+      '#=============================================================================',
+      '',
+      '',
+      ''
+  ]
 
-  
+[[layers]]
+  name = "format"
 
+[[layers]]
+  name = "lang#red"
+  repl_command = "red --cli"
 
-  
-  
-  
-  
-  
-  
+[[layers]]
+  name = "lang#toml"
 
+[[layers]]
+  name = "sudo"
 
-  
-  
+[[layers]]
+  name = "lang#autohotkey"
 
+[[layers]]
+  name = "lang#autoit"
 
-  
-  
-
-
-  
-
-
-  
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
-
-
-  
+[[layers]]
+  name = 'lang#coffeescript'
 
 [layers]
   name = "lang#e"
 
+[[layers]]
+  name = 'lang#d'
 
-  
+[[layers]]
+  name = 'go'
 
-
-  
-
-
-  
-
+[[layers]]
+  name = "lang#lua"
