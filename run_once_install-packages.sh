@@ -4,7 +4,7 @@
 # sudo pacman -S postgresql fish
 
 # pamac install direnv
-# yay -S fish-done
+yay -S rust-analyzer nodejs npm python-pip fish-done
 
 npm -g install remark
 npm -g install remark-cli
@@ -22,5 +22,5 @@ pip3 install -U --user pip pylint yapf autoflake isort coverage pip-tools
 # omf update
 curl -sLf https://spacevim.org/install.sh | bash -s -- --install neovim
 ##
-printf "function gi\n\tcurl -sL https://www.toptal.com/developers/gitignore/api/\$argv\nend\n" > \
-~/.config/fish/functions/gi.fish
+# printf "function gi\n\tcurl -sL https://www.toptal.com/developers/gitignore/api/\$argv\nend\n" > \
+# ~/.config/fish/functions/gi.fish
