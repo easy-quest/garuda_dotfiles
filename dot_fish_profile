@@ -1,5 +1,7 @@
 starship init fish | source
 
+rvm default
+
 #GOROOT环境变量设置
 ## set -gx PATH ~/.local/bin $PATH
 ## set -Ux FOO bar
