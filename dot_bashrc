@@ -4,7 +4,7 @@
 
 exec zsh
 
-# If not running interactively, don't do anythingg
+# If not running interactively, don't do anythinggkkkk
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'

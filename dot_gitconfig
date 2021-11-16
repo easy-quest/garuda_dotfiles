@@ -3,9 +3,3 @@
 	name = Ivan Yastrebov
 [init]
 	defaultBranch = main
-[gpg]
-	program = /usr/bin/krgpg
-[tag]
-	forceSignAnnotated = true
-[commit]
-	gpgSign = true
