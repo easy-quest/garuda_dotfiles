@@ -85,3 +85,21 @@
 
 [[layers]]
   name = "sudo"
+
+[layers]
+  name = "lang#autohotkey"
+
+[layers]
+  name = "lang#autoit"
+
+[[layers]]
+  name = 'lang#coffeescript'
+
+[layers]
+  name = "lang#e"
+
+[[layers]]
+  name = 'lang#d'
+
+[[layers]]
+  name = 'go'
