@@ -103,3 +103,6 @@
 
 [[layers]]
   name = 'go'
+
+[[layers]]
+  name = "lang#lua"
