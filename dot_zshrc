@@ -186,3 +186,10 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+function venv(){
+  python -m venv .venv $argv
+  printf "source .venv/bin/activate" > .envrc $argv
+  direnv allow $argv
+  pip install -U pip setuptools wheel pylint yapf isort pip-tools $argv
+}
