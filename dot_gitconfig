@@ -1,5 +1,10 @@
 [user]
 	email = easy-quest@mail.ru
 	name = Ivan Yastrebov
+	signingkey = easy-quest@mail.ru
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/bin/gpg2
