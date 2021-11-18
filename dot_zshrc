@@ -92,7 +92,7 @@ plugins=(rvm,ruby)
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/bin/man:$MANPATH"
 
 # You may need to manually set your language environment
 export LANG=ru_RU.UTF-8
