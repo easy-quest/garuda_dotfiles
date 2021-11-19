@@ -6,8 +6,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source $ZSH/oh-my-zsh.sh
-
 # If you come from bash you might have to change your $PATH.
 ## Path section
 # Set $PATH if ~/.local/bin exist
@@ -20,6 +18,7 @@ export PATH="$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH"
 export ZSH="/home/zzz/.oh-my-zsh"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
+source $ZSH/oh-my-zsh.sh
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 # Set name of the theme to load --- if set to "random", it will
