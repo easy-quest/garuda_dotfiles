@@ -179,6 +179,7 @@ SAVEHIST=10000
 ## Run neofetch
 # neofetch
 
+alias rm="rm -Rf $argv"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
