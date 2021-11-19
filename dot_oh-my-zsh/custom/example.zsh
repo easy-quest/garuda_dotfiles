@@ -232,3 +232,5 @@ alias pi='pip install -U'
 alias rm='rm -Rf $argv'
 alias md='mkdir -p $argv'
 
+export EDITOR="nvim"
+alias edit="$EDITOR"
