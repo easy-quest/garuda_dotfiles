@@ -1,4 +1,5 @@
-export EDITOR="ranger"
+export EDITOR="nvim"
+export VISUAL="ranger"
 export BROWSER=chromium
 export TERM=alacritty
 export QT_QPA_PLATFORMTHEME="qt5ct"
