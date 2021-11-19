@@ -210,6 +210,23 @@ function gp(){
   git commit -a $argv
   git push $argv
 }
+function pyedit(){
+  
+    xpyc=`python -c "import os, sys; f = open(os.devnull, 'w'); sys.stderr = f; module = __import__('$1'); sys.stdout.write(module.__file__)"`
+
+    if [[ "$xpyc" == "" ]]; then
+        echo "Python module $1 not found"
+        return -1
+
+    elif [[ $xpyc == *__init__.py* ]]; then
+        xpydir=`dirname $xpyc`;
+        echo "$EDITOR $xpydir";
+        $EDITOR "$xpydir";
+    else
+        echo "$EDITOR ${xpyc%.*}.py";
+        $EDITOR "${xpyc%.*}.py";
+    fi
+}
 
 alias pi='pip install -U'
 alias rm='rm -Rf $argv'
