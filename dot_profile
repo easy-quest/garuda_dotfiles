@@ -1,4 +1,4 @@
-export EDITOR="code --wait"
+export EDITOR="ranger"
 export BROWSER=chromium
 export TERM=alacritty
 export QT_QPA_PLATFORMTHEME="qt5ct"
