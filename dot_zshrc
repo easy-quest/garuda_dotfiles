@@ -111,9 +111,9 @@ export ARCHFLAGS="-arch x86_64"
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-## Plugins section: Enable fish style features
-# Use syntax highlighting
-# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+## Раздел плагинов: Включение функций в стиле рыбы
+# Используйте подсветку синтаксиса
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Use autosuggestion
 # source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
